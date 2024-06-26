@@ -1,0 +1,30 @@
+{
+  "name": "@keinsell/tsconfig",
+  "version": "1.0.0",
+  "description": "TypeScript configuration",
+  "license": "MIT",
+  "repository": "keinsell/tsconfig",
+  "author": {
+    "name": "Jakub Olan",
+    "email": "keinsell@protonmail.com",
+    "url": "https://keinsell.com"
+  },
+  "exports": "./tsconfig.json",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  }
+}
